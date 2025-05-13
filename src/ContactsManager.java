@@ -1,8 +1,10 @@
 public class ContactsManager {
+    // Attributs
     Contact[] myFriends;
     int friendsCount;
 
     ContactsManager() {
+        // Constructeur
         this.friendsCount = 0;
         this.myFriends = new Contact[500];
     }
